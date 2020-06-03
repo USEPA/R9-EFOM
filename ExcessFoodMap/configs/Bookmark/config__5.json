@@ -1,0 +1,611 @@
+{
+  "bookmarks2D": [
+    {
+      "displayName": "Guam",
+      "name": "Guam",
+      "extent": {
+        "type": "extent",
+        "xmin": -24003493.29362235,
+        "ymin": 1478627.981176454,
+        "xmax": -23914826.34081151,
+        "ymax": 1539777.6038046186,
+        "spatialReference": {
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": 16071523.391955461,
+                "ymin": 1478627.981176454,
+                "xmax": 16160190.3447663,
+                "ymax": 1539777.6038046186,
+                "spatialReference": {
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                -1
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_17.jpeg",
+      "isInWebmap": false
+    },
+    {
+      "displayName": "Puerto Rico",
+      "name": "Puerto Rico",
+      "extent": {
+        "type": "extent",
+        "xmin": -7562742.748924432,
+        "ymin": 1945030.3777692788,
+        "xmax": -7208074.937681232,
+        "ymax": 2189628.8682818306,
+        "spatialReference": {
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -7562742.748924432,
+                "ymin": 1945030.3777692788,
+                "xmax": -7208074.937681232,
+                "ymax": 2189628.8682818306,
+                "spatialReference": {
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_18.jpeg",
+      "isInWebmap": false
+    },
+    {
+      "displayName": "US Virgin Islands",
+      "name": "US Virgin Islands",
+      "extent": {
+        "type": "extent",
+        "xmin": -7298807.154141161,
+        "ymin": 1978098.315789275,
+        "xmax": -7121473.248519638,
+        "ymax": 2100397.561045498,
+        "spatialReference": {
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -7298807.154141161,
+                "ymin": 1978098.315789275,
+                "xmax": -7121473.248519638,
+                "ymax": 2100397.561045498,
+                "spatialReference": {
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_19.jpeg",
+      "isInWebmap": false
+    },
+    {
+      "displayName": "Northern Mariana Islands",
+      "name": "Northern Mariana Islands",
+      "extent": {
+        "type": "extent",
+        "xmin": -24218035.21217739,
+        "ymin": 1685871.386951681,
+        "xmax": -23508699.58969114,
+        "ymax": 2175068.367976679,
+        "spatialReference": {
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": 15856981.473400421,
+                "ymin": 1685871.386951681,
+                "xmax": 16566317.09588667,
+                "ymax": 2175068.367976679,
+                "spatialReference": {
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                -1
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_20.jpeg",
+      "isInWebmap": false
+    },
+    {
+      "displayName": "Hawaii",
+      "name": "Hawaii",
+      "extent": {
+        "type": "extent",
+        "xmin": -17898280.85896144,
+        "ymin": 2091396.78181675,
+        "xmax": -17188945.236475192,
+        "ymax": 2580593.762841748,
+        "spatialReference": {
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -17898280.85896144,
+                "ymin": 2091396.78181675,
+                "xmax": -17188945.236475192,
+                "ymax": 2580593.762841748,
+                "spatialReference": {
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_21.jpeg",
+      "isInWebmap": false
+    },
+    {
+      "displayName": "Alaska",
+      "name": "Alaska",
+      "extent": {
+        "type": "extent",
+        "xmin": -19800161.685421463,
+        "ymin": 7550605.1310551325,
+        "xmax": -14125476.705531487,
+        "ymax": 11464180.979255116,
+        "spatialReference": {
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -19800161.685421463,
+                "ymin": 7550605.1310551325,
+                "xmax": -14125476.705531487,
+                "ymax": 11464180.979255116,
+                "spatialReference": {
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_22.jpeg",
+      "isInWebmap": false
+    },
+    {
+      "displayName": "Continental US",
+      "name": "Continental US",
+      "extent": {
+        "type": "extent",
+        "xmin": -13798706.189931879,
+        "ymin": 2822183.151701038,
+        "xmax": -8124021.210041901,
+        "ymax": 6735758.999901022,
+        "spatialReference": {
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -13798706.189931879,
+                "ymin": 2822183.151701038,
+                "xmax": -8124021.210041901,
+                "ymax": 6735758.999901022,
+                "spatialReference": {
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_23.jpeg",
+      "isInWebmap": false
+    },
+    {
+      "displayName": "New England (EPA Region 1)",
+      "name": "New England (EPA Region 1)",
+      "extent": {
+        "type": "extent",
+        "xmin": -8617997.10244632,
+        "ymin": 5030588.3466223525,
+        "xmax": -7199325.857473826,
+        "ymax": 6008982.308672349,
+        "spatialReference": {
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -8617997.10244632,
+                "ymin": 5030588.3466223525,
+                "xmax": -7199325.857473826,
+                "ymax": 6008982.308672349,
+                "spatialReference": {
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_24.jpeg",
+      "isInWebmap": false
+    },
+    {
+      "displayName": "NY and NJ (EPA Region 2)",
+      "name": "NY and NJ (EPA Region 2)",
+      "extent": {
+        "type": "extent",
+        "xmin": -9097420.850381345,
+        "ymin": 4648768.437770922,
+        "xmax": -7678749.605408851,
+        "ymax": 5627162.399820918,
+        "spatialReference": {
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -9097420.850381345,
+                "ymin": 4648768.437770922,
+                "xmax": -7678749.605408851,
+                "ymax": 5627162.399820918,
+                "spatialReference": {
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_25.jpeg",
+      "isInWebmap": false
+    },
+    {
+      "displayName": "Mid-Atlantic (EPA Region 3)",
+      "name": "Mid-Atlantic (EPA Region 3)",
+      "extent": {
+        "type": "extent",
+        "xmin": -9436179.053210631,
+        "ymin": 4321252.724136104,
+        "xmax": -8017507.8082381375,
+        "ymax": 5299646.6861861,
+        "spatialReference": {
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -9436179.053210631,
+                "ymin": 4321252.724136104,
+                "xmax": -8017507.8082381375,
+                "ymax": 5299646.6861861,
+                "spatialReference": {
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_26.jpeg",
+      "isInWebmap": false
+    },
+    {
+      "displayName": "Southeast (EPA Region 4)",
+      "name": "Southeast (EPA Region 4)",
+      "extent": {
+        "type": "extent",
+        "xmin": -10919668.898168935,
+        "ymin": 2779059.2414547983,
+        "xmax": -8082326.408223947,
+        "ymax": 4735847.16555479,
+        "spatialReference": {
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -10919668.898168935,
+                "ymin": 2779059.2414547983,
+                "xmax": -8082326.408223947,
+                "ymax": 4735847.16555479,
+                "spatialReference": {
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_27.jpeg",
+      "isInWebmap": false
+    },
+    {
+      "displayName": "Great Lakes (EPA Region 5 )",
+      "name": "Great Lakes (EPA Region 5 )",
+      "extent": {
+        "type": "extent",
+        "xmin": -11315918.452799188,
+        "ymin": 4547506.327860152,
+        "xmax": -8478575.962854201,
+        "ymax": 6504294.251960143,
+        "spatialReference": {
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -11315918.452799188,
+                "ymin": 4547506.327860152,
+                "xmax": -8478575.962854201,
+                "ymax": 6504294.251960143,
+                "spatialReference": {
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_28.jpeg",
+      "isInWebmap": false
+    },
+    {
+      "displayName": "South Central (EPA Region 6)",
+      "name": "South Central (EPA Region 6)",
+      "extent": {
+        "type": "extent",
+        "xmin": -12465531.35820793,
+        "ymin": 2872006.667849548,
+        "xmax": -9628188.868262943,
+        "ymax": 4828794.59194954,
+        "spatialReference": {
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -12465531.35820793,
+                "ymin": 2872006.667849548,
+                "xmax": -9628188.868262943,
+                "ymax": 4828794.59194954,
+                "spatialReference": {
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_29.jpeg",
+      "isInWebmap": false
+    },
+    {
+      "displayName": "Midwest (EPA Region 7)",
+      "name": "Midwest (EPA Region 7)",
+      "extent": {
+        "type": "extent",
+        "xmin": -11492029.365968186,
+        "ymin": 4332259.656209167,
+        "xmax": -10073358.120995693,
+        "ymax": 5310653.618259164,
+        "spatialReference": {
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -11492029.365968186,
+                "ymin": 4332259.656209167,
+                "xmax": -10073358.120995693,
+                "ymax": 5310653.618259164,
+                "spatialReference": {
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_30.jpeg",
+      "isInWebmap": false
+    },
+    {
+      "displayName": "Mountains and Plains (EPA Region 8)",
+      "name": "Mountains and Plains (EPA Region 8)",
+      "extent": {
+        "type": "extent",
+        "xmin": -13463493.199498927,
+        "ymin": 4390963.293932166,
+        "xmax": -10626150.70955394,
+        "ymax": 6347751.218032157,
+        "spatialReference": {
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -13463493.199498927,
+                "ymin": 4390963.293932166,
+                "xmax": -10626150.70955394,
+                "ymax": 6347751.218032157,
+                "spatialReference": {
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_31.jpeg",
+      "isInWebmap": false
+    },
+    {
+      "displayName": "Pacific Southwest (EPA Region 9)",
+      "name": "Pacific Southwest (EPA Region 9)",
+      "extent": {
+        "type": "extent",
+        "xmin": -14295128.067241423,
+        "ymin": 3444367.135648796,
+        "xmax": -11457785.577296436,
+        "ymax": 5401155.059748787,
+        "spatialReference": {
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -14295128.067241423,
+                "ymin": 3444367.135648796,
+                "xmax": -11457785.577296436,
+                "ymax": 5401155.059748787,
+                "spatialReference": {
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_32.jpeg",
+      "isInWebmap": false
+    },
+    {
+      "displayName": "Pacific Northwest (EPA Region 10)",
+      "name": "Pacific Northwest (EPA Region 10)",
+      "extent": {
+        "type": "extent",
+        "xmin": -14703607.546397295,
+        "ymin": 4792104.818372665,
+        "xmax": -11866265.056452308,
+        "ymax": 6748892.742472656,
+        "spatialReference": {
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -14703607.546397295,
+                "ymin": 4792104.818372665,
+                "xmax": -11866265.056452308,
+                "ymax": 6748892.742472656,
+                "spatialReference": {
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_33.jpeg",
+      "isInWebmap": false
+    }
+  ],
+  "bookmarks3D": [],
+  "layout": {
+    "cards": true,
+    "list": false,
+    "defaultMode": "cards"
+  },
+  "editable": false,
+  "syncMode": {
+    "webmap": true,
+    "custom": true
+  },
+  "isSaveLayerVisibility": false
+}

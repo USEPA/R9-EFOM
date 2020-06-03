@@ -1,0 +1,117 @@
+{
+  "showTitle": true,
+  "showBasemap": false,
+  "showLegend": false,
+  "expandAllLayersByDefault": true,
+  "contextMenu": {
+    "ZoomTo": true,
+    "Transparency": true,
+    "SetVisibilityRange": false,
+    "EnableOrDisablePopup": false,
+    "ControlLabels": true,
+    "MoveupOrMovedown": true,
+    "OpenAttributeTable": true,
+    "DescriptionOrShowItemDetailsOrDownload": true
+  },
+  "layerOptions": {
+    "LND1903612_ExcessFoodGenerator_6365": {
+      "display": true
+    },
+    "LND1903612_ExcessFoodGenerator_571": {
+      "display": true
+    },
+    "LND1903612_ExcessFoodGenerator_4100": {
+      "display": true
+    },
+    "LND1903612_ExcessFoodGenerator_2322": {
+      "display": true
+    },
+    "LND1903612_ExcessFoodGenerator_8430": {
+      "display": true
+    },
+    "LND1903612_ExcessFoodGenerator_7292": {
+      "display": true
+    },
+    "LND1903612_ExcessFoodGenerator_6919": {
+      "display": true
+    },
+    "LND1903612_ExcessFoodGenerator_540": {
+      "display": true
+    },
+    "LND1903612_ExcessFoodGenerator_7747": {
+      "display": true
+    },
+    "LND1903612_ExcessFoodGenerator_7747_51": {
+      "display": true
+    },
+    "LND1903612_ExcessFoodGenerator_7747_52": {
+      "display": true
+    },
+    "LND1903612_ExcessFoodGenerator_7747_53": {
+      "display": true
+    },
+    "LND1903612_ExcessFoodGenerator_7747_54": {
+      "display": true
+    },
+    "LND1903612_ExcessFoodGenerator_7747_55": {
+      "display": true
+    },
+    "LND1903612_ExcessFoodGenerator_7747_56": {
+      "display": true
+    },
+    "LND1903612_ExcessFoodGenerator_7747_57": {
+      "display": true
+    },
+    "LND1903612_ExcessFoodGenerator_7747_58": {
+      "display": true
+    },
+    "LND1903612_ExcessFoodRecipient_9810": {
+      "display": true
+    },
+    "LND1903612_ExcessFoodRecipient_9810_51": {
+      "display": true
+    },
+    "LND1903612_ExcessFoodRecipient_9810_81": {
+      "display": true
+    },
+    "LND1903612_ExcessFoodRecipient_9810_75": {
+      "display": true
+    },
+    "LND1903612_ExcessFoodRecipient_9810_78": {
+      "display": true
+    },
+    "LND1903612_ExcessFoodRecipient_9810_68": {
+      "display": true
+    },
+    "LND1903612_ExcessFoodRecipient_9810_69": {
+      "display": true
+    },
+    "LND1903612_ExcessFoodRecipient_9810_70": {
+      "display": true
+    },
+    "LND1903612_ExcessFoodRecipient_9810_50": {
+      "display": true
+    },
+    "LND1903612_ExcessFoodRecipient_9810_77": {
+      "display": true
+    },
+    "LND1903612_ExcessFoodRecipient_9810_59": {
+      "display": true
+    },
+    "LND1903612_ExcessFoodRecipient_9810_60": {
+      "display": true
+    },
+    "LND1903612_ExcessFoodRecipient_9810_61": {
+      "display": true
+    },
+    "LND1903612_ExcessFoodRecipient_2547": {
+      "display": true
+    },
+    "LND1903612_ExcessFoodRecipient_2025": {
+      "display": true
+    },
+    "LND1903612_ExcessFoodRecipient_9576": {
+      "display": true
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.jimu-widget-homebutton {
+  background-color: rgba(0,0,0,0.2);
+  border-radius: 5px;
+  border: 1px solid #999;
+}
+
+.jimu-widget-homebutton .HomeButton .home {
+  background-color: rgba(0,0,0,0.2);
+}
+
+.jimu-widget-homebutton.inHome {
+	background-color: #000;
+}
+
+.jimu-widget-homebutton .HomeButton .home:hover {
+  background-color: rgba(0,0,0,0.5);
+}
+
+.jimu-widget-homebutton.inHome .HomeButton .home {
+	background-color: #000;
+}

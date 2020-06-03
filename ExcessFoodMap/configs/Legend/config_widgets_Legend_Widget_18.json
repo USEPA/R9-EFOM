@@ -1,0 +1,41 @@
+{
+  "legend": {
+    "arrangement": 0,
+    "autoUpdate": true,
+    "respectCurrentMapScale": true
+  },
+  "layerState": {
+    "LND1903612_ExcessFoodGenerator_6365": {
+      "selected": true
+    },
+    "LND1903612_ExcessFoodGenerator_571": {
+      "selected": true
+    },
+    "LND1903612_ExcessFoodGenerator_4100": {
+      "selected": true
+    },
+    "LND1903612_ExcessFoodGenerator_2322": {
+      "selected": true
+    },
+    "LND1903612_ExcessFoodGenerator_8430": {
+      "selected": true
+    },
+    "LND1903612_ExcessFoodGenerator_7292": {
+      "selected": true
+    },
+    "LND1903612_ExcessFoodGenerator_6919": {
+      "selected": true
+    },
+    "LND1903612_ExcessFoodGenerator_540": {
+      "selected": true
+    },
+    "LND1903612_ExcessFoodGenerator_7747": {
+      "selected": false
+    },
+    "LND1903612_ExcessFoodRecipient_9810": {
+      "selected": false
+    }
+  },
+  "syncWithWebmap": false,
+  "showLegendForBasemap": false
+}

@@ -1,0 +1,2766 @@
+{
+  "layerInfos": [
+    {
+      "name": "Correctional Facilities",
+      "id": "LND1903612_ExcessFoodGenerator_6365",
+      "layer": {
+        "url": "https://gispub.epa.gov/arcgis/rest/services/Region9/LND2003987_ExcessFoodGenerator/MapServer/1",
+        "fields": [
+          {
+            "show": false,
+            "name": "OBJECTID",
+            "alias": "OBJECTID"
+          },
+          {
+            "show": true,
+            "name": "Name",
+            "alias": "Name"
+          },
+          {
+            "show": true,
+            "name": "NAICS_Code_Description",
+            "alias": "NAICS Code Description"
+          },
+          {
+            "show": true,
+            "name": "NAICS_Code",
+            "alias": "NAICS Code"
+          },
+          {
+            "show": true,
+            "name": "Address",
+            "alias": "Address"
+          },
+          {
+            "show": true,
+            "name": "City",
+            "alias": "City"
+          },
+          {
+            "show": true,
+            "name": "County",
+            "alias": "County"
+          },
+          {
+            "show": true,
+            "name": "State",
+            "alias": "State"
+          },
+          {
+            "show": true,
+            "name": "Zip_Code",
+            "alias": "Zip Code"
+          },
+          {
+            "show": true,
+            "name": "ExcessFood_TonYear_LowEst",
+            "alias": "Excess Food Estimate, Low (tons per year)"
+          },
+          {
+            "show": true,
+            "name": "ExcessFood_TonYear_HighEst",
+            "alias": "Excess Food Estimate, High (tons per year)"
+          },
+          {
+            "show": true,
+            "name": "UniqueID",
+            "alias": "Unique Identifier"
+          },
+          {
+            "show": false,
+            "name": "Shape",
+            "alias": "Shape"
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Educational Institutions",
+      "id": "LND1903612_ExcessFoodGenerator_571",
+      "layer": {
+        "url": "https://gispub.epa.gov/arcgis/rest/services/Region9/LND2003987_ExcessFoodGenerator/MapServer/2",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "Name",
+            "alias": "Name",
+            "show": true
+          },
+          {
+            "name": "School_Type",
+            "alias": "School Type",
+            "show": true
+          },
+          {
+            "name": "Address",
+            "alias": "Address",
+            "show": true
+          },
+          {
+            "name": "City",
+            "alias": "City",
+            "show": true
+          },
+          {
+            "name": "County",
+            "alias": "County",
+            "show": true
+          },
+          {
+            "name": "State",
+            "alias": "State",
+            "show": true
+          },
+          {
+            "name": "Zip_Code",
+            "alias": "Zip Code",
+            "show": true
+          },
+          {
+            "name": "Phone",
+            "alias": "Phone",
+            "show": true
+          },
+          {
+            "name": "Website",
+            "alias": "Website",
+            "show": true
+          },
+          {
+            "name": "ExcessFood_TonYear_LowEst",
+            "alias": "Excess Food Estimate, Low (tons per year)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "ExcessFood_TonYear_HighEst",
+            "alias": "Excess Food Estimate, High (tons per year)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "UniqueID",
+            "alias": "Unique Identifier",
+            "show": true
+          },
+          {
+            "name": "Shape",
+            "alias": "Shape",
+            "show": false
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Food Banks",
+      "id": "LND1903612_ExcessFoodGenerator_4100",
+      "layer": {
+        "url": "https://gispub.epa.gov/arcgis/rest/services/Region9/LND2003987_ExcessFoodGenerator/MapServer/3",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "UniqueID",
+            "alias": "Unique Identifier",
+            "show": true
+          },
+          {
+            "name": "Facility_Name",
+            "alias": "Name",
+            "show": true
+          },
+          {
+            "name": "NAICS_Code_Description",
+            "alias": "NAICS Code Description",
+            "show": true
+          },
+          {
+            "name": "NAICS_Code",
+            "alias": "NAICS Code",
+            "show": true
+          },
+          {
+            "name": "Facility_Type",
+            "alias": "Facility Type",
+            "show": true
+          },
+          {
+            "name": "Web_Address",
+            "alias": "Website",
+            "show": true
+          },
+          {
+            "name": "Phone_Number",
+            "alias": "Phone Number",
+            "show": true
+          },
+          {
+            "name": "Street_Address",
+            "alias": "Address",
+            "show": true
+          },
+          {
+            "name": "City_Name",
+            "alias": "City",
+            "show": true
+          },
+          {
+            "name": "County_Name",
+            "alias": "County",
+            "show": true
+          },
+          {
+            "name": "GNIS",
+            "alias": "GNIS",
+            "show": false
+          },
+          {
+            "name": "StateAbrv",
+            "alias": "State",
+            "show": true
+          },
+          {
+            "name": "POSTCODE",
+            "alias": "Zip Code",
+            "show": true
+          },
+          {
+            "name": "ExcessFood_TonYear",
+            "alias": "Excess Food (tons per year)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "ReceivedFood_TonYear",
+            "alias": "Received Food (tons per year)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "POINT_X",
+            "alias": "POINT_X",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "POINT_Y",
+            "alias": "POINT_Y",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape",
+            "alias": "Shape",
+            "show": false
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Healthcare Facilities",
+      "id": "LND1903612_ExcessFoodGenerator_2322",
+      "layer": {
+        "url": "https://gispub.epa.gov/arcgis/rest/services/Region9/LND2003987_ExcessFoodGenerator/MapServer/4",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "Name",
+            "alias": "Name",
+            "show": true
+          },
+          {
+            "name": "NAICS_Code_Description",
+            "alias": "NAICS Code Description",
+            "show": true
+          },
+          {
+            "name": "NAICS_Code",
+            "alias": "NAICS Code",
+            "show": true
+          },
+          {
+            "name": "Address",
+            "alias": "Address",
+            "show": true
+          },
+          {
+            "name": "City",
+            "alias": "City",
+            "show": true
+          },
+          {
+            "name": "County",
+            "alias": "County",
+            "show": true
+          },
+          {
+            "name": "State",
+            "alias": "State",
+            "show": true
+          },
+          {
+            "name": "Zip_Code",
+            "alias": "Zip Code",
+            "show": true
+          },
+          {
+            "name": "Phone",
+            "alias": "Phone",
+            "show": true
+          },
+          {
+            "name": "Website",
+            "alias": "Website",
+            "show": true
+          },
+          {
+            "name": "ExcessFood_TonYear_LowEst",
+            "alias": "Excess Food Estimate, Low (tons per year)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "ExcessFood_TonYear_HighEst",
+            "alias": "Excess Food Estimate, High (tons per year)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "UniqueID",
+            "alias": "Unique Identifier",
+            "show": true
+          },
+          {
+            "name": "Shape",
+            "alias": "Shape",
+            "show": false
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Hospitality Industry",
+      "id": "LND1903612_ExcessFoodGenerator_8430",
+      "layer": {
+        "url": "https://gispub.epa.gov/arcgis/rest/services/Region9/LND2003987_ExcessFoodGenerator/MapServer/5",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "Name",
+            "alias": "Name",
+            "show": true
+          },
+          {
+            "name": "NAICS_Code_Description",
+            "alias": "NAICS Code Description",
+            "show": true
+          },
+          {
+            "name": "NAICS_Code",
+            "alias": "NAICS Code",
+            "show": true
+          },
+          {
+            "name": "Address",
+            "alias": "Address",
+            "show": true
+          },
+          {
+            "name": "City",
+            "alias": "City",
+            "show": true
+          },
+          {
+            "name": "County",
+            "alias": "County",
+            "show": true
+          },
+          {
+            "name": "State",
+            "alias": "State",
+            "show": true
+          },
+          {
+            "name": "Zip_Code",
+            "alias": "Zip Code",
+            "show": true
+          },
+          {
+            "name": "ExcessFood_TonYear_LowEst",
+            "alias": "Excess Food Estimate, Low (tons per year)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "ExcessFood_TonYear_HighEst",
+            "alias": "Excess Food Estimate, High (tons per year)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "UniqueID",
+            "alias": "Unique Identifier",
+            "show": true
+          },
+          {
+            "name": "Shape",
+            "alias": "Shape",
+            "show": false
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Food Manufacturers and Processors",
+      "id": "LND1903612_ExcessFoodGenerator_7292",
+      "layer": {
+        "url": "https://gispub.epa.gov/arcgis/rest/services/Region9/LND2003987_ExcessFoodGenerator/MapServer/6",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "Name",
+            "alias": "Name",
+            "show": true
+          },
+          {
+            "name": "NAICS_Code_Description",
+            "alias": "NAICS Code Description",
+            "show": true
+          },
+          {
+            "name": "NAICS_Code",
+            "alias": "NAICS Code",
+            "show": true
+          },
+          {
+            "name": "Address",
+            "alias": "Address",
+            "show": true
+          },
+          {
+            "name": "City",
+            "alias": "City",
+            "show": true
+          },
+          {
+            "name": "County",
+            "alias": "County",
+            "show": true
+          },
+          {
+            "name": "State",
+            "alias": "State",
+            "show": true
+          },
+          {
+            "name": "Zip_Code",
+            "alias": "Zip Code",
+            "show": true
+          },
+          {
+            "name": "ExcessFood_TonYear_LowEst",
+            "alias": "Excess Food Estimate, Low (tons per year)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "ExcessFood_TonYear_HighEst",
+            "alias": "Excess Food Estimate, High (tons per year)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "UniqueID",
+            "alias": "Unique Identifier",
+            "show": true
+          },
+          {
+            "name": "Shape",
+            "alias": "Shape",
+            "show": false
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Food Wholesale and Retail",
+      "id": "LND1903612_ExcessFoodGenerator_6919",
+      "layer": {
+        "url": "https://gispub.epa.gov/arcgis/rest/services/Region9/LND2003987_ExcessFoodGenerator/MapServer/7",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "Name",
+            "alias": "Name",
+            "show": true
+          },
+          {
+            "name": "NAICS_Code_Description",
+            "alias": "NAICS Code Description",
+            "show": true
+          },
+          {
+            "name": "NAICS_Code",
+            "alias": "NAICS Code",
+            "show": true
+          },
+          {
+            "name": "Address",
+            "alias": "Address",
+            "show": true
+          },
+          {
+            "name": "City",
+            "alias": "City",
+            "show": true
+          },
+          {
+            "name": "County",
+            "alias": "County",
+            "show": true
+          },
+          {
+            "name": "State",
+            "alias": "State",
+            "show": true
+          },
+          {
+            "name": "Zip_Code",
+            "alias": "Zip Code",
+            "show": true
+          },
+          {
+            "name": "ExcessFood_TonYear_LowEst",
+            "alias": "Excess Food Estimate, Low (tons per year)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "ExcessFood_TonYear_HighEst",
+            "alias": "Excess Food Estimate, High (tons per year)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "UniqueID",
+            "alias": "Unique Identifier",
+            "show": true
+          },
+          {
+            "name": "Shape",
+            "alias": "Shape",
+            "show": false
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Restaurants and Food Services",
+      "id": "LND1903612_ExcessFoodGenerator_540",
+      "layer": {
+        "url": "https://gispub.epa.gov/arcgis/rest/services/Region9/LND2003987_ExcessFoodGenerator/MapServer/8",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "Name",
+            "alias": "Name",
+            "show": true
+          },
+          {
+            "name": "NAICS_Code_Description",
+            "alias": "NAICS Code Description",
+            "show": true
+          },
+          {
+            "name": "NAICS_Code",
+            "alias": "NAICS Code",
+            "show": true
+          },
+          {
+            "name": "Address",
+            "alias": "Address",
+            "show": true
+          },
+          {
+            "name": "City",
+            "alias": "City",
+            "show": true
+          },
+          {
+            "name": "County",
+            "alias": "County",
+            "show": true
+          },
+          {
+            "name": "State",
+            "alias": "State",
+            "show": true
+          },
+          {
+            "name": "Zip_Code",
+            "alias": "Zip Code",
+            "show": true
+          },
+          {
+            "name": "ExcessFood_TonYear_LowEst",
+            "alias": "Excess Food Estimate, Low (tons per year)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "ExcessFood_TonYear_HighEst",
+            "alias": "Excess Food Estimate, High (tons per year)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "UniqueID",
+            "alias": "Unique Identifier",
+            "show": true
+          },
+          {
+            "name": "Shape",
+            "alias": "Shape",
+            "show": false
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Correctional Facilities",
+      "id": "LND1903612_ExcessFoodGenerator_7747_51",
+      "layer": {
+        "url": "https://gispub.epa.gov/arcgis/rest/services/Region9/LND2003987_ExcessFoodGenerator/MapServer/51",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "Name",
+            "alias": "Name",
+            "show": true
+          },
+          {
+            "name": "NAICS_Code_Description",
+            "alias": "NAICS Code Description",
+            "show": true
+          },
+          {
+            "name": "NAICS_Code",
+            "alias": "NAICS Code",
+            "show": true
+          },
+          {
+            "name": "Address",
+            "alias": "Address",
+            "show": true
+          },
+          {
+            "name": "City",
+            "alias": "City",
+            "show": true
+          },
+          {
+            "name": "County",
+            "alias": "County",
+            "show": true
+          },
+          {
+            "name": "State",
+            "alias": "State",
+            "show": true
+          },
+          {
+            "name": "Zip_Code",
+            "alias": "Zip Code",
+            "show": true
+          },
+          {
+            "name": "ExcessFood_TonYear_LowEst",
+            "alias": "Excess Food Estimate, Low (tons per year)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "ExcessFood_TonYear_HighEst",
+            "alias": "Excess Food Estimate, High (tons per year)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "UniqueID",
+            "alias": "Unique Identifier",
+            "show": true
+          },
+          {
+            "name": "Shape",
+            "alias": "Shape",
+            "show": false
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Educational Institutions",
+      "id": "LND1903612_ExcessFoodGenerator_7747_52",
+      "layer": {
+        "url": "https://gispub.epa.gov/arcgis/rest/services/Region9/LND2003987_ExcessFoodGenerator/MapServer/52",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "Name",
+            "alias": "Name",
+            "show": true
+          },
+          {
+            "name": "School_Type",
+            "alias": "School Type",
+            "show": true
+          },
+          {
+            "name": "Address",
+            "alias": "Address",
+            "show": true
+          },
+          {
+            "name": "City",
+            "alias": "City",
+            "show": true
+          },
+          {
+            "name": "County",
+            "alias": "County",
+            "show": true
+          },
+          {
+            "name": "State",
+            "alias": "State",
+            "show": true
+          },
+          {
+            "name": "Zip_Code",
+            "alias": "Zip Code",
+            "show": true
+          },
+          {
+            "name": "Phone",
+            "alias": "Phone",
+            "show": true
+          },
+          {
+            "name": "Website",
+            "alias": "Website",
+            "show": true
+          },
+          {
+            "name": "ExcessFood_TonYear_LowEst",
+            "alias": "Excess Food Estimate, Low (tons per year)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "ExcessFood_TonYear_HighEst",
+            "alias": "Excess Food Estimate, High (tons per year)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "UniqueID",
+            "alias": "Unique Identifier",
+            "show": true
+          },
+          {
+            "name": "Shape",
+            "alias": "Shape",
+            "show": false
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Food Banks",
+      "id": "LND1903612_ExcessFoodGenerator_7747_53",
+      "layer": {
+        "url": "https://gispub.epa.gov/arcgis/rest/services/Region9/LND2003987_ExcessFoodGenerator/MapServer/53",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "Facility_Name",
+            "alias": "Name",
+            "show": true
+          },
+          {
+            "name": "NAICS_Code_Description",
+            "alias": "NAICS Code Description",
+            "show": true
+          },
+          {
+            "name": "NAICS_Code",
+            "alias": "NAICS Code",
+            "show": true
+          },
+          {
+            "name": "Facility_Type",
+            "alias": "Facility Type",
+            "show": true
+          },
+          {
+            "name": "Web_Address",
+            "alias": "Website",
+            "show": true
+          },
+          {
+            "name": "Phone_Number",
+            "alias": "Phone Number",
+            "show": true
+          },
+          {
+            "name": "Street_Address",
+            "alias": "Address",
+            "show": true
+          },
+          {
+            "name": "City_Name",
+            "alias": "City",
+            "show": true
+          },
+          {
+            "name": "County_Name",
+            "alias": "County",
+            "show": true
+          },
+          {
+            "name": "GNIS",
+            "alias": "GNIS",
+            "show": false
+          },
+          {
+            "name": "StateAbrv",
+            "alias": "State",
+            "show": true
+          },
+          {
+            "name": "POSTCODE",
+            "alias": "Zip Code",
+            "show": true
+          },
+          {
+            "name": "ExcessFood_TonYear",
+            "alias": "Excess Food (tons per year)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "ReceivedFood_TonYear",
+            "alias": "Received Food (tons per year)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "UniqueID",
+            "alias": "Unique Identifier",
+            "show": true
+          },
+          {
+            "name": "POINT_X",
+            "alias": "POINT_X",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "POINT_Y",
+            "alias": "POINT_Y",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape",
+            "alias": "Shape",
+            "show": false
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Healthcare Facilities",
+      "id": "LND1903612_ExcessFoodGenerator_7747_54",
+      "layer": {
+        "url": "https://gispub.epa.gov/arcgis/rest/services/Region9/LND2003987_ExcessFoodGenerator/MapServer/54",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "Name",
+            "alias": "Name",
+            "show": true
+          },
+          {
+            "name": "NAICS_Code_Description",
+            "alias": "NAICS Code Description",
+            "show": true
+          },
+          {
+            "name": "NAICS_Code",
+            "alias": "NAICS Code",
+            "show": true
+          },
+          {
+            "name": "Address",
+            "alias": "Address",
+            "show": true
+          },
+          {
+            "name": "City",
+            "alias": "City",
+            "show": true
+          },
+          {
+            "name": "County",
+            "alias": "County",
+            "show": true
+          },
+          {
+            "name": "State",
+            "alias": "State",
+            "show": true
+          },
+          {
+            "name": "Zip_Code",
+            "alias": "Zip Code",
+            "show": true
+          },
+          {
+            "name": "Phone",
+            "alias": "Phone",
+            "show": true
+          },
+          {
+            "name": "Website",
+            "alias": "Website",
+            "show": true
+          },
+          {
+            "name": "ExcessFood_TonYear_LowEst",
+            "alias": "Excess Food Estimate, Low (tons per year)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "ExcessFood_TonYear_HighEst",
+            "alias": "Excess Food Estimate, High (tons per year)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "UniqueID",
+            "alias": "Unique Identifier",
+            "show": true
+          },
+          {
+            "name": "Shape",
+            "alias": "Shape",
+            "show": false
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Hospitality Industry",
+      "id": "LND1903612_ExcessFoodGenerator_7747_55",
+      "layer": {
+        "url": "https://gispub.epa.gov/arcgis/rest/services/Region9/LND2003987_ExcessFoodGenerator/MapServer/55",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "Name",
+            "alias": "Name",
+            "show": true
+          },
+          {
+            "name": "NAICS_Code_Description",
+            "alias": "NAICS Code Description",
+            "show": true
+          },
+          {
+            "name": "NAICS_Code",
+            "alias": "NAICS Code",
+            "show": true
+          },
+          {
+            "name": "Address",
+            "alias": "Address",
+            "show": true
+          },
+          {
+            "name": "City",
+            "alias": "City",
+            "show": true
+          },
+          {
+            "name": "County",
+            "alias": "County",
+            "show": true
+          },
+          {
+            "name": "State",
+            "alias": "State",
+            "show": true
+          },
+          {
+            "name": "Zip_Code",
+            "alias": "Zip Code",
+            "show": true
+          },
+          {
+            "name": "ExcessFood_TonYear_LowEst",
+            "alias": "Excess Food Estimate, Low (tons per year)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "ExcessFood_TonYear_HighEst",
+            "alias": "Excess Food Estimate, High (tons per year)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "UniqueID",
+            "alias": "Unique Identifier",
+            "show": true
+          },
+          {
+            "name": "Shape",
+            "alias": "Shape",
+            "show": false
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Food Manufacturers and Processors",
+      "id": "LND1903612_ExcessFoodGenerator_7747_56",
+      "layer": {
+        "url": "https://gispub.epa.gov/arcgis/rest/services/Region9/LND2003987_ExcessFoodGenerator/MapServer/56",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "Name",
+            "alias": "Name",
+            "show": true
+          },
+          {
+            "name": "NAICS_Code_Description",
+            "alias": "NAICS Code Description",
+            "show": true
+          },
+          {
+            "name": "NAICS_Code",
+            "alias": "NAICS Code",
+            "show": true
+          },
+          {
+            "name": "Address",
+            "alias": "Address",
+            "show": true
+          },
+          {
+            "name": "City",
+            "alias": "City",
+            "show": true
+          },
+          {
+            "name": "County",
+            "alias": "County",
+            "show": true
+          },
+          {
+            "name": "State",
+            "alias": "State",
+            "show": true
+          },
+          {
+            "name": "Zip_Code",
+            "alias": "Zip Code",
+            "show": true
+          },
+          {
+            "name": "ExcessFood_TonYear_LowEst",
+            "alias": "Excess Food Estimate, Low (tons per year)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "ExcessFood_TonYear_HighEst",
+            "alias": "Excess Food Estimate, High (tons per year)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "UniqueID",
+            "alias": "Unique Identifier",
+            "show": true
+          },
+          {
+            "name": "Shape",
+            "alias": "Shape",
+            "show": false
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Food Wholesale and Retail",
+      "id": "LND1903612_ExcessFoodGenerator_7747_57",
+      "layer": {
+        "url": "https://gispub.epa.gov/arcgis/rest/services/Region9/LND2003987_ExcessFoodGenerator/MapServer/57",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "Name",
+            "alias": "Name",
+            "show": true
+          },
+          {
+            "name": "NAICS_Code_Description",
+            "alias": "NAICS Code Description",
+            "show": true
+          },
+          {
+            "name": "NAICS_Code",
+            "alias": "NAICS Code",
+            "show": true
+          },
+          {
+            "name": "Address",
+            "alias": "Address",
+            "show": true
+          },
+          {
+            "name": "City",
+            "alias": "City",
+            "show": true
+          },
+          {
+            "name": "County",
+            "alias": "County",
+            "show": true
+          },
+          {
+            "name": "State",
+            "alias": "State",
+            "show": true
+          },
+          {
+            "name": "Zip_Code",
+            "alias": "Zip Code",
+            "show": true
+          },
+          {
+            "name": "ExcessFood_TonYear_LowEst",
+            "alias": "Excess Food Estimate, Low (tons per year)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "ExcessFood_TonYear_HighEst",
+            "alias": "Excess Food Estimate, High (tons per year)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "UniqueID",
+            "alias": "Unique Identifier",
+            "show": true
+          },
+          {
+            "name": "Shape",
+            "alias": "Shape",
+            "show": false
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Restaurants and Food Services",
+      "id": "LND1903612_ExcessFoodGenerator_7747_58",
+      "layer": {
+        "url": "https://gispub.epa.gov/arcgis/rest/services/Region9/LND2003987_ExcessFoodGenerator/MapServer/58",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "Name",
+            "alias": "Name",
+            "show": true
+          },
+          {
+            "name": "NAICS_Code_Description",
+            "alias": "NAICS Code Description",
+            "show": true
+          },
+          {
+            "name": "NAICS_Code",
+            "alias": "NAICS Code",
+            "show": true
+          },
+          {
+            "name": "Address",
+            "alias": "Address",
+            "show": true
+          },
+          {
+            "name": "City",
+            "alias": "City",
+            "show": true
+          },
+          {
+            "name": "County",
+            "alias": "County",
+            "show": true
+          },
+          {
+            "name": "State",
+            "alias": "State",
+            "show": true
+          },
+          {
+            "name": "Zip_Code",
+            "alias": "Zip Code",
+            "show": true
+          },
+          {
+            "name": "ExcessFood_TonYear_LowEst",
+            "alias": "Excess Food Estimate, Low (tons per year)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "ExcessFood_TonYear_HighEst",
+            "alias": "Excess Food Estimate, High (tons per year)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "UniqueID",
+            "alias": "Unique Identifier",
+            "show": true
+          },
+          {
+            "name": "Shape",
+            "alias": "Shape",
+            "show": false
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Communities with Source Separated Organics Programs",
+      "id": "LND1903612_ExcessFoodRecipient_9810_51",
+      "layer": {
+        "url": "https://gispub.epa.gov/arcgis/rest/services/Region9/LND2003987_ExcessFoodRecipient/MapServer/51",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "NAME",
+            "alias": "Community",
+            "show": true
+          },
+          {
+            "name": "Sub_Cities",
+            "alias": "Additional Areas Served",
+            "show": true
+          },
+          {
+            "name": "State",
+            "alias": "State",
+            "show": true
+          },
+          {
+            "name": "Households",
+            "alias": "Number of Households",
+            "show": true
+          },
+          {
+            "name": "Processor",
+            "alias": "Processing Facility or Hauler",
+            "show": true
+          },
+          {
+            "name": "FeedAcpted",
+            "alias": "Material Preference",
+            "show": true
+          },
+          {
+            "name": "Participation",
+            "alias": "Participation Rate",
+            "show": false
+          },
+          {
+            "name": "AmountCollected",
+            "alias": "Amount Collected",
+            "show": false
+          },
+          {
+            "name": "UniqueID",
+            "alias": "Unique Identifier",
+            "show": true
+          },
+          {
+            "name": "Shape",
+            "alias": "Shape",
+            "show": false
+          },
+          {
+            "name": "Source",
+            "alias": "Source",
+            "show": true
+          },
+          {
+            "name": "Shape_Length",
+            "alias": "Shape_Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape_Area",
+            "alias": "Shape_Area",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Composting Facilities",
+      "id": "LND1903612_ExcessFoodRecipient_9810_81",
+      "layer": {
+        "url": "https://gispub.epa.gov/arcgis/rest/services/Region9/LND2003987_ExcessFoodRecipient/MapServer/81",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "Name",
+            "alias": "Name",
+            "show": true
+          },
+          {
+            "name": "Address",
+            "alias": "Address",
+            "show": true
+          },
+          {
+            "name": "City",
+            "alias": "City",
+            "show": true
+          },
+          {
+            "name": "County",
+            "alias": "County",
+            "show": true
+          },
+          {
+            "name": "State",
+            "alias": "State",
+            "show": true
+          },
+          {
+            "name": "Zip_Code",
+            "alias": "Zip Code",
+            "show": true
+          },
+          {
+            "name": "Feedstock",
+            "alias": "Feedstock",
+            "show": true
+          },
+          {
+            "name": "Source",
+            "alias": "Source",
+            "show": true
+          },
+          {
+            "name": "Facility_s_Website",
+            "alias": "Facility's Website",
+            "show": true
+          },
+          {
+            "name": "More_Info_on_Feedstock",
+            "alias": "More Info on Feedstock",
+            "show": true
+          },
+          {
+            "name": "UniqueID",
+            "alias": "Unique Identifier",
+            "show": true
+          },
+          {
+            "name": "GNIS",
+            "alias": "GNIS",
+            "show": false
+          },
+          {
+            "name": "Shape",
+            "alias": "Shape",
+            "show": false
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Anaerobic Digestion Facilities",
+      "id": "LND1903612_ExcessFoodRecipient_9810_83",
+      "layer": {
+        "url": "https://gispub.epa.gov/arcgis/rest/services/Region9/LND2003987_ExcessFoodRecipient/MapServer/83",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "UniqueID",
+            "alias": "Unique Identifier",
+            "show": true
+          },
+          {
+            "name": "Name",
+            "alias": "Name",
+            "show": true
+          },
+          {
+            "name": "Address",
+            "alias": "Address",
+            "show": true
+          },
+          {
+            "name": "City",
+            "alias": "City",
+            "show": true
+          },
+          {
+            "name": "County",
+            "alias": "County",
+            "show": true
+          },
+          {
+            "name": "GNIS",
+            "alias": "GNIS",
+            "show": false
+          },
+          {
+            "name": "State",
+            "alias": "State",
+            "show": true
+          },
+          {
+            "name": "Zipcode",
+            "alias": "Zipcode",
+            "show": true
+          },
+          {
+            "name": "FacilityType",
+            "alias": "Facility Type",
+            "show": true
+          },
+          {
+            "name": "Feedstock",
+            "alias": "Feedstock",
+            "show": true
+          },
+          {
+            "name": "Source",
+            "alias": "Source",
+            "show": true
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "All Recipients of Excess Food",
+      "id": "LND1903612_ExcessFoodRecipient_9810_78",
+      "layer": {
+        "url": "https://gispub.epa.gov/arcgis/rest/services/Region9/LND2003987_ExcessFoodRecipient/MapServer/78",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "County_Name",
+            "alias": "County",
+            "show": false
+          },
+          {
+            "name": "StateAbrv",
+            "alias": "State",
+            "show": false
+          },
+          {
+            "name": "ADFacility_Count",
+            "alias": "Number of Anaerobic Digestion Facilities",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Compost_Count",
+            "alias": "Number of Composting Facilities",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "FoodBank_Count",
+            "alias": "Number of Food Banks",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "TotalRecipient",
+            "alias": "Total Number of Recipients",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "GNIS",
+            "alias": "GNIS",
+            "show": false
+          },
+          {
+            "name": "UniqueID",
+            "alias": "Unique Identifier",
+            "show": false
+          },
+          {
+            "name": "Shape",
+            "alias": "Shape",
+            "show": false
+          },
+          {
+            "name": "Shape_Length",
+            "alias": "Shape_Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape_Area",
+            "alias": "Shape_Area",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Composting Facilities",
+      "id": "LND1903612_ExcessFoodRecipient_9810_68",
+      "layer": {
+        "url": "https://gispub.epa.gov/arcgis/rest/services/Region9/LND2003987_ExcessFoodRecipient/MapServer/68",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": true
+          },
+          {
+            "name": "County_Name",
+            "alias": "County",
+            "show": false
+          },
+          {
+            "name": "StateAbrv",
+            "alias": "State",
+            "show": false
+          },
+          {
+            "name": "ADFacility_Count",
+            "alias": "Number of Anaerobic Digestion Facilities",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Compost_Count",
+            "alias": "Number of Composting Facilities",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "FoodBank_Count",
+            "alias": "Number of Food Banks",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "TotalRecipient",
+            "alias": "Total Number of Recipients",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "GNIS",
+            "alias": "GNIS",
+            "show": false
+          },
+          {
+            "name": "UniqueID",
+            "alias": "Unique Identifier",
+            "show": false
+          },
+          {
+            "name": "Shape",
+            "alias": "Shape",
+            "show": false
+          },
+          {
+            "name": "Shape_Length",
+            "alias": "Shape_Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape_Area",
+            "alias": "Shape_Area",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Anaerobic Digestion Facilities",
+      "id": "LND1903612_ExcessFoodRecipient_9810_69",
+      "layer": {
+        "url": "https://gispub.epa.gov/arcgis/rest/services/Region9/LND2003987_ExcessFoodRecipient/MapServer/69",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "County_Name",
+            "alias": "County",
+            "show": true
+          },
+          {
+            "name": "StateAbrv",
+            "alias": "State",
+            "show": true
+          },
+          {
+            "name": "ADFacility_Count",
+            "alias": "Number of Anaerobic Digestion Facilities",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Compost_Count",
+            "alias": "Number of Composting Facilities",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "FoodBank_Count",
+            "alias": "Number of Food Banks",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "TotalRecipient",
+            "alias": "Total Number of Recipients",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "GNIS",
+            "alias": "GNIS",
+            "show": false
+          },
+          {
+            "name": "UniqueID",
+            "alias": "Unique Identifier",
+            "show": true
+          },
+          {
+            "name": "Shape",
+            "alias": "Shape",
+            "show": false
+          },
+          {
+            "name": "Shape_Length",
+            "alias": "Shape_Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape_Area",
+            "alias": "Shape_Area",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Food Banks",
+      "id": "LND1903612_ExcessFoodRecipient_9810_70",
+      "layer": {
+        "url": "https://gispub.epa.gov/arcgis/rest/services/Region9/LND2003987_ExcessFoodRecipient/MapServer/70",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "County_Name",
+            "alias": "County",
+            "show": true
+          },
+          {
+            "name": "StateAbrv",
+            "alias": "State",
+            "show": true
+          },
+          {
+            "name": "ADFacility_Count",
+            "alias": "Number of Anaerobic Digestion Facilities",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Compost_Count",
+            "alias": "Number of Composting Facilities",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "FoodBank_Count",
+            "alias": "Number of Food Banks",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "TotalRecipient",
+            "alias": "Total Number of Recipients",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "GNIS",
+            "alias": "GNIS",
+            "show": false
+          },
+          {
+            "name": "UniqueID",
+            "alias": "Unique Identifier",
+            "show": true
+          },
+          {
+            "name": "Shape",
+            "alias": "Shape",
+            "show": false
+          },
+          {
+            "name": "Shape_Length",
+            "alias": "Shape_Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape_Area",
+            "alias": "Shape_Area",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "All Recipients of Excess Food",
+      "id": "LND1903612_ExcessFoodRecipient_9810_77",
+      "layer": {
+        "url": "https://gispub.epa.gov/arcgis/rest/services/Region9/LND2003987_ExcessFoodRecipient/MapServer/77",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "POSTCODE",
+            "alias": "Zip Code",
+            "show": true
+          },
+          {
+            "name": "StateAbrv",
+            "alias": "State",
+            "show": true
+          },
+          {
+            "name": "GNIS",
+            "alias": "GNIS",
+            "show": false
+          },
+          {
+            "name": "ADFacility_Count",
+            "alias": "Number of Anaerobic Digestion Facilities",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Compost_Count",
+            "alias": "Number of Composting Facilities",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "FoodBank_Count",
+            "alias": "Number of Food Banks",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "TotalRecipient",
+            "alias": "Total Number of Recipients",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "UniqueID",
+            "alias": "Unique Identifier",
+            "show": true
+          },
+          {
+            "name": "Shape",
+            "alias": "Shape",
+            "show": false
+          },
+          {
+            "name": "Shape_Length",
+            "alias": "Shape_Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape_Area",
+            "alias": "Shape_Area",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Composting Facilities",
+      "id": "LND1903612_ExcessFoodRecipient_9810_59",
+      "layer": {
+        "url": "https://gispub.epa.gov/arcgis/rest/services/Region9/LND2003987_ExcessFoodRecipient/MapServer/59",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "POSTCODE",
+            "alias": "Zip Code",
+            "show": true
+          },
+          {
+            "name": "StateAbrv",
+            "alias": "State",
+            "show": true
+          },
+          {
+            "name": "GNIS",
+            "alias": "GNIS",
+            "show": false
+          },
+          {
+            "name": "ADFacility_Count",
+            "alias": "Number of Anaerobic Digestion Facilities",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Compost_Count",
+            "alias": "Number of Composting Facilities",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "FoodBank_Count",
+            "alias": "Number of Food Banks",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "TotalRecipient",
+            "alias": "Total Number of Recipients",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "UniqueID",
+            "alias": "Unique Identifier",
+            "show": true
+          },
+          {
+            "name": "Shape",
+            "alias": "Shape",
+            "show": false
+          },
+          {
+            "name": "Shape_Length",
+            "alias": "Shape_Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape_Area",
+            "alias": "Shape_Area",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Anaerobic Digestion Facilities",
+      "id": "LND1903612_ExcessFoodRecipient_9810_60",
+      "layer": {
+        "url": "https://gispub.epa.gov/arcgis/rest/services/Region9/LND2003987_ExcessFoodRecipient/MapServer/60",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "POSTCODE",
+            "alias": "Zip Code",
+            "show": true
+          },
+          {
+            "name": "StateAbrv",
+            "alias": "State",
+            "show": true
+          },
+          {
+            "name": "GNIS",
+            "alias": "GNIS",
+            "show": false
+          },
+          {
+            "name": "ADFacility_Count",
+            "alias": "Number of Anaerobic Digestion Facilities",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Compost_Count",
+            "alias": "Number of Composting Facilities",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "FoodBank_Count",
+            "alias": "Number of Food Banks",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "TotalRecipient",
+            "alias": "Total Number of Recipients",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "UniqueID",
+            "alias": "Unique Identifier",
+            "show": true
+          },
+          {
+            "name": "Shape",
+            "alias": "Shape",
+            "show": false
+          },
+          {
+            "name": "Shape_Length",
+            "alias": "Shape_Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape_Area",
+            "alias": "Shape_Area",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Food Banks",
+      "id": "LND1903612_ExcessFoodRecipient_9810_61",
+      "layer": {
+        "url": "https://gispub.epa.gov/arcgis/rest/services/Region9/LND2003987_ExcessFoodRecipient/MapServer/61",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "POSTCODE",
+            "alias": "Zip Code",
+            "show": true
+          },
+          {
+            "name": "StateAbrv",
+            "alias": "State",
+            "show": true
+          },
+          {
+            "name": "GNIS",
+            "alias": "GNIS",
+            "show": false
+          },
+          {
+            "name": "ADFacility_Count",
+            "alias": "Number of Anaerobic Digestion Facilities",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Compost_Count",
+            "alias": "Number of Composting Facilities",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "FoodBank_Count",
+            "alias": "Number of Food Banks",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "TotalRecipient",
+            "alias": "Total Number of Recipients",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "UniqueID",
+            "alias": "Unique Identifier",
+            "show": true
+          },
+          {
+            "name": "Shape",
+            "alias": "Shape",
+            "show": false
+          },
+          {
+            "name": "Shape_Length",
+            "alias": "Shape_Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape_Area",
+            "alias": "Shape_Area",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "All Food Banks",
+      "id": "LND1903612_ExcessFoodRecipient_2547",
+      "layer": {
+        "url": "https://gispub.epa.gov/arcgis/rest/services/Region9/LND2003987_ExcessFoodRecipient/MapServer/23",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "Facility_Name",
+            "alias": "Name",
+            "show": true
+          },
+          {
+            "name": "NAICS_Code_Description",
+            "alias": "NAICS Code Description",
+            "show": true
+          },
+          {
+            "name": "NAICS_Code",
+            "alias": "NAICS Code",
+            "show": true
+          },
+          {
+            "name": "Facility_Type",
+            "alias": "Facility Type",
+            "show": true
+          },
+          {
+            "name": "Web_Address",
+            "alias": "Website",
+            "show": true
+          },
+          {
+            "name": "Phone_Number",
+            "alias": "Phone Number",
+            "show": true
+          },
+          {
+            "name": "Street_Address",
+            "alias": "Street Address",
+            "show": true
+          },
+          {
+            "name": "City_Name",
+            "alias": "City",
+            "show": true
+          },
+          {
+            "name": "County_Name",
+            "alias": "County Name",
+            "show": true
+          },
+          {
+            "name": "GNIS",
+            "alias": "GNIS",
+            "show": false
+          },
+          {
+            "name": "StateAbrv",
+            "alias": "State",
+            "show": true
+          },
+          {
+            "name": "POSTCODE",
+            "alias": "Zip Code",
+            "show": true
+          },
+          {
+            "name": "ExcessFood_TonYear",
+            "alias": "Excess Food (tons per year)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "ReceivedFood_TonYear",
+            "alias": "Received Food (tons per year)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "UniqueID",
+            "alias": "Unique Identifier",
+            "show": true
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "All Composting Facilities",
+      "id": "LND1903612_ExcessFoodRecipient_2025",
+      "layer": {
+        "url": "https://gispub.epa.gov/arcgis/rest/services/Region9/LND2003987_ExcessFoodRecipient/MapServer/22",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "Name",
+            "alias": "Name",
+            "show": true
+          },
+          {
+            "name": "Address",
+            "alias": "Address",
+            "show": true
+          },
+          {
+            "name": "City",
+            "alias": "City",
+            "show": true
+          },
+          {
+            "name": "County",
+            "alias": "County",
+            "show": true
+          },
+          {
+            "name": "State",
+            "alias": "State",
+            "show": true
+          },
+          {
+            "name": "Zip_Code",
+            "alias": "Zip Code",
+            "show": true
+          },
+          {
+            "name": "Feedstock",
+            "alias": "Feedstock",
+            "show": true
+          },
+          {
+            "name": "Source",
+            "alias": "Source",
+            "show": true
+          },
+          {
+            "name": "Facility_s_Website",
+            "alias": "Facility's Website",
+            "show": true
+          },
+          {
+            "name": "More_Info_on_Feedstock",
+            "alias": "More Info on Feedstock",
+            "show": true
+          },
+          {
+            "name": "UniqueID",
+            "alias": "Unique Identifier",
+            "show": true
+          },
+          {
+            "name": "GNIS",
+            "alias": "GNIS",
+            "show": false
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "All Anaerobic Digestion Facilities",
+      "id": "LND1903612_ExcessFoodRecipient_9576",
+      "layer": {
+        "url": "https://gispub.epa.gov/arcgis/rest/services/Region9/LND2003987_ExcessFoodRecipient/MapServer/20",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "UniqueID",
+            "alias": "UniqueID",
+            "show": true
+          },
+          {
+            "name": "Name",
+            "alias": "Name",
+            "show": true
+          },
+          {
+            "name": "Address",
+            "alias": "Address",
+            "show": true
+          },
+          {
+            "name": "City",
+            "alias": "City",
+            "show": true
+          },
+          {
+            "name": "County",
+            "alias": "County",
+            "show": true
+          },
+          {
+            "name": "GNIS",
+            "alias": "GNIS",
+            "show": false
+          },
+          {
+            "name": "State",
+            "alias": "State",
+            "show": true
+          },
+          {
+            "name": "Zipcode",
+            "alias": "Zipcode",
+            "show": true
+          },
+          {
+            "name": "FacilityType",
+            "alias": "Facility Type",
+            "show": true
+          },
+          {
+            "name": "Feedstock",
+            "alias": "Feedstock",
+            "show": true
+          },
+          {
+            "name": "Source",
+            "alias": "Source",
+            "show": true
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    }
+  ],
+  "table": {
+    "pageSizeOptions": [
+      25,
+      50,
+      100,
+      1000
+    ]
+  },
+  "hideExportButton": false,
+  "initiallyExpand": false,
+  "filterByMapExtent": true,
+  "allowTextSelection": false,
+  "syncWithLayers": false
+}
